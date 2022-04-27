@@ -5,7 +5,7 @@ public class Streams {
         Sintaxe:
         container.stream().método(parâmetros)               OBS:  os parâmetros, majoritariamente, são expressões lambda
     */ 
-    public static void main(String args[]){
+    public static void main(String args[]) {
         ArrayList<Integer> jooj = new ArrayList<Integer>();
         int n = 2;
         while(jooj.size() != 20){
