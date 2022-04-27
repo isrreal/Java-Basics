@@ -7,7 +7,7 @@ final class Carro {      // o modificador de classe final não permite que a cla
     Carro(int ano, int rodas) {
         this.ano = ano;
         numero_de_rodas = rodas;
-        incrementador++;        // a cada criação de objeto, vai aumentando 1
+        ++incrementador;        // a cada criação de objeto, vai aumentando 1
     }
     // Quando criar uma classe ou método static, quer dizer que é possível
     // a utilizar sem sequer ter criado algum objeto antes

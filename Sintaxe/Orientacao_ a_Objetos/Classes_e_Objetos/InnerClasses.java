@@ -5,7 +5,7 @@ class Externa {
     }
 }
 
-public class ClassesInternas {
+public class InnerClasses {
     public static void main(String args[]) {
         // Sintaxe: Nomedaclasse NomedoObjetoExterno = new NomedaClasse;
         Externa exemplo_da_externa = new Externa();  
