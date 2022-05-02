@@ -6,9 +6,9 @@ public class VectorLib {
         //  OBS:    quando não inicializado o tamanho,  ele automaticamente inica com 10 posições 
         //  é preferível que use Arraylist ou LinkedList pois é mais prático e rápido
         Vector<Integer> vetor = new Vector <Integer>(tamanho);     // não colocam os tipos comuns, colocam: classes wrap
-        for (int i = 0; i < vetor.size(); i++) 
+        for (int i = 0; i < tamanho; i++) 
             vetor.add(i);            
-        for (int iterator: vetor)
+        for (Integer iterator: vetor)
             System.out.println(iterator);
     }
 }
