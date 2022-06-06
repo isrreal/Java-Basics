@@ -1,5 +1,6 @@
-import java.util.*;
-class ArrayList {
+import java.util.ArrayList;
+
+class ArrayLst {
 /*
     A diferença entre ArrayList e o LinkedList é justamente porque para alterar algo 
     no Arraylist, é preciso literalmente criar um array novo e destruir o antigo toda 
@@ -11,8 +12,8 @@ class ArrayList {
          // OBS: OS TIPOS TEM QUE SEREM DE CLASSES WRAP        
         // Sintaxe: ArrayList < TipoWrap > nomedavariavel = new ArrayList <TipoWrap>(tamanho)
         // Por padrão, o número de posições , inicialmente, é 10;
-        ArrayList<String> jooj = new ArrayList <String>(); 
-        ArrayList<Integer> numeros = new ArrayList <Integer>();
+        ArrayList<String> jooj = new ArrayList<String>(); 
+        ArrayList<Integer> numeros = new ArrayList<Integer>();
         int a = 2;
         int b = 3;
         jooj.add("aaaaa");

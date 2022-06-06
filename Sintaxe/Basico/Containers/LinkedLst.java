@@ -6,9 +6,9 @@ import java.util.LinkedList;
     pra modificar ele, pois é um ponteiro novo na memória é criado para o 
     endereço novo
 */
-public class LinkedList {
+public class LinkedLst {
     public static void main(String args[]){
-        LinkedList lista = new LinkedList();    // Sintaxe:   LinkedList nome = new LinkedList(TamanhodaLista); 
+        LinkedList<String> lista = new LinkedList<String>();    // Sintaxe:   LinkedList nome = new LinkedList(TamanhodaLista); 
         lista.addFirst("jooj");     // Adiciona um elemento no início da lista
         lista.addLast("jeej");      // Adiciona um elemento no fim da fila
         lista.addLast("ultimo");

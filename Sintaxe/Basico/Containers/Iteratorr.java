@@ -8,11 +8,10 @@ public class Iteratorr {
         jooj.add(3);
         // Sintaxe Iterator <TipodeDado> NomeQualquer = nomedoarray.iterator();
         // OBS: O TIPO DE DADO TEM QUE SER IGUAL AO DO TIPO DO ARRAY QUE SE QUER ITERAR
-        Iterator<Integer> it =   jooj.iterator();  
-        // retorna o primeiro elemento do array
-        System.out.println(it.next());      
+        Iterator<Integer> it =   jooj.iterator();   
         // O método .hasNext retorna true caso exista algum elemento consequente 
-        while(it.hasNext()) {           
+        while(it.hasNext()) {       
+            // .next() retorna o primeiro elemento do array       
             Integer a = it.next();
             if (a < 10)
             // apaga o elemento do iterator     "NAO SUPORTA ARGUMENTOS"
