@@ -4,13 +4,19 @@ import java.util.Scanner; // Para ler arquivos
 public class Ler {
     public static void main(String args[]) {      
         try {
-            File arquivo = new File("Arquivo.txt");        //  Coloca o nome do arquivo já existente no construtor
-            Scanner leitura = new Scanner(arquivo);                 //  Criando um objeto pra ler o arquivo requerido
-            while (leitura.hasNextLine()) {                         // O método .hasNextLine() verifica se o arquivo chegou no final
-                String inicio = leitura.nextLine();                 // O método .nextLine() recebe o início do arquivo
-                System.out.println(inicio);                         // printa o conteúdo do arquivo em si
+            // Coloca o nome do arquivo já existente no construtor
+            File arquivo = new File("Arquivo.txt");        
+            //  Criando um objeto pra ler o arquivo requerido
+            Scanner leitura = new Scanner(arquivo);                
+            // hasNextLine() verifica se o arquivo chegou no final
+            while (leitura.hasNextLine()) {                         
+                // nextLine() recebe o início do arquivo
+                String inicio = leitura.nextLine();                 
+                // printa o conteúdo do arquivo em si
+                System.out.println(inicio);                         
             }
-            leitura.close();         // fecha o arquivo 
+            // fecha o arquivo 
+            leitura.close();        
         } 
         catch (IOException jooj) {
             System.out.println("Aconteceu um erro.");

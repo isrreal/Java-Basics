@@ -5,8 +5,10 @@ public class Arquivos {
         // Sintaxe pra criar um arquivo:    File nomequalquer = new File("NomedoArquivo.txt");
         // Ou  new File("LocalOndeoArquivoVaiSerCriado");
         File arquivo = new File("Arquivo.txt");   
+        // arquivo.delete() apaga um arquivo
         try {
-            if(arquivo.createNewFile())             // Cria um novo arquivo
+             // Cria um novo arquivo
+            if(arquivo.createNewFile())            
                 // O método .getName() pega o nome do arquivo
                 System.out.println("O arquivo " + arquivo.getName() + " foi criado agora"); 
             else
