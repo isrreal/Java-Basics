@@ -25,7 +25,7 @@ public class Data {
         
         // Sintaxe de criação: DateTimeFormatter nome = DateTimeFormatter.ofPattern(argumento);
         DateTimeFormatter TempoFormatado = DateTimeFormatter.ofPattern("E, MMM dd yyyy");   
-        // foramatar a data requerida com o Objeto de formatação
+        // formatar a data requerida com o Objeto de formatação
         String DataFormatada = DataeHorario.format(TempoFormatado); 
         System.out.println(DataFormatada);
     }
