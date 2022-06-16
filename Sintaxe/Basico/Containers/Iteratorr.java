@@ -18,6 +18,5 @@ public class Iteratorr {
                 it.remove();            
         }    
         System.out.println(jooj);
-            
     }
 }
