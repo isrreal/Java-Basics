@@ -16,10 +16,10 @@ public class Enum1 {
         public static String getSegunda() {
             return String.format("%s", SEGUNDA);
         }
-        @Override
+        /* @Override
         public String toString() {
             return super.toString();
-        }
+        } */
     }
     public static void main(String[] args) {
         Semana semana = Semana.TERCA;

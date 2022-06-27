@@ -9,12 +9,13 @@ public class Ler {
             //  Criando um objeto pra ler o arquivo requerido
             Scanner leitura = new Scanner(arquivo);                
             // hasNextLine() verifica se o arquivo chegou no final
+            String inicio = "";
             while (leitura.hasNextLine()) {                         
                 // nextLine() recebe o início do arquivo
-                String inicio = leitura.nextLine();                 
-                // printa o conteúdo do arquivo em si
-                System.out.println(inicio);                         
+                inicio += leitura.nextLine();                 
+                // printa o conteúdo do arquivo em si                         
             }
+            System.out.println(inicio);
             // fecha o arquivo 
             leitura.close();        
         } 

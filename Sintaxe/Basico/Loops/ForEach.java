@@ -9,7 +9,7 @@ public class ForEach {
                                             OBS 1:  No for each, para "usar" o container, utiliza o nome da                                             
                                             variavel criada durante a criação do loop, uma copia do container, 
                                             não o nome do container em si
-                                        */         
+                                        */        
             System.out.println(jooj);   
         }
     }    

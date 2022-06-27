@@ -2,6 +2,7 @@
     - Uma interface suporta apenas atributos constantes estáticos  e "final"
     - É utilizada quando queremos que a classe que herda, obrigatoriamente use seus métodos
       Ou seja, ocorre um erro caso não utilize todos os seus métodos
+    - uma interface apenas suporta métodos abstratos
 */
     interface Veiculo {           //  Funciona como uma entidade, portanto, não precisa da palavra-chave  "class"
         public void tipo();       //  Em uma interface, só coloca assinaturas de métodos,

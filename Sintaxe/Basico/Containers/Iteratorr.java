@@ -8,7 +8,7 @@ public class Iteratorr {
         jooj.add(3);
         // Sintaxe Iterator <TipodeDado> NomeQualquer = nomedoarray.iterator();
         // OBS: O TIPO DE DADO TEM QUE SER IGUAL AO DO TIPO DO ARRAY QUE SE QUER ITERAR
-        Iterator<Integer> it =   jooj.iterator();   
+        Iterator<Integer> it = jooj.iterator();   
         // O método .hasNext retorna true caso exista algum elemento consequente 
         while(it.hasNext()) {       
             // .next() retorna o primeiro elemento do array       

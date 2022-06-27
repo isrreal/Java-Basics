@@ -1,4 +1,3 @@
-
 import java.io.FileWriter;      // Para escrever em arquivos
 import java.io.IOException;     // Para manipular erros
 public class Escrever {
